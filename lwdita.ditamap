@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA 1.3 BookMap//EN" "bookmap.dtd">
+<bookmap id="lwditabook">
+	<booktitle>
+	  <mainbooktitle>DITA on a Diet</mainbooktitle>
+		<booktitlealt>Setting up and Using Lightweight DITA (LwDITA)</booktitlealt>
+	</booktitle>
+
+	<bookmeta>
+		<author type="creator">Larry Kollar</author>
+		<keywords>
+			<keyword>LwDITA</keyword>
+		</keywords>
+		<prodinfo>
+			<prodname>LwDITA</prodname>
+			<vrmlist>
+				<!-- one vrm, two vrmin -->
+				<vrm release="1" modification="DRAFT" version="1.1"/>
+			</vrmlist>
+		</prodinfo>
+		<bookchangehistory>
+			<bookevent>
+				<revisionid>1.0</revisionid>
+				<completed><month>August</month><year>2018</year></completed>
+				<summary>First draft</summary>
+			</bookevent>
+			<bookevent>
+				<revisionid>1.1</revisionid>
+				<completed><month>October</month><year>2018</year></completed>
+				<summary>Fleshing out info, esp. conref/keys</summary>
+			</bookevent>
+			<bookevent>
+				<revisionid>1.2</revisionid>
+				<completed><month>June</month><year>2019</year></completed>
+				<summary>Preparing for deployment</summary>
+			</bookevent>
+		</bookchangehistory>
+		<bookrights>
+			<copyrfirst><year>2019</year></copyrfirst>
+			<bookowner><person>Larry Kollar</person></bookowner>
+			<bookrestriction
+				href="http://creativecommons.org/licenses/by-sa/4.0/" scope="external"
+				value="Copying licensed under Creative Commons Attribution-ShareAlike 4.0 International License"/>
+		</bookrights>
+	</bookmeta>
+
+	<frontmatter>
+		<booklists>
+			<toc toc="no"/>
+		</booklists>
+		<topicref processing-role="resource-only" format="mdita" href="0_reuse.md"/>
+	</frontmatter>
+
+	<chapter navtitle="Introducing Lightweight DITA"
+		href="intro.md" format="mdita">
+      <topicref href="solution-lwdita.md" format="mdita" navtitle="One solution: LwDITA"/>
+      <topicref href="why-adopt.md" format="mdita" navtitle="Why Adopt LwDITA?"/>
+  </chapter>
+
+  <chapter navtitle="Getting Started" href="getstart.md" format="mdita">
+    <topicref href="writing-topics.md" format="mdita" navtitle="Writing Topics"/>
+    <topicref href="refs.md" format="mdita" navtitle="Reuse and References">
+      <topicref href="conref.md" format="mdita" navtitle="Using Conrefs"/>
+      <topicref href="keydef.md" format="mdita" navtitle="Setting up Keydefs"/>
+    </topicref>
+  </chapter>
+
+  <chapter navtitle="Working with Maps" href="maps.md" format="mdita">
+    <topicref href="reltable.md" format="mdita" navtitle="Relationship Tables">
+			<topicref href="reltable_ex.md" format="mdita" navtitle="Example Relationship Tables"/>
+		</topicref>
+		<topicref href="collection.md" format="mdita" navtitle="Using Collections"/>
+  </chapter>
+
+  <chapter navtitle="Working with Topics" href="topics.md" format="mdita">
+		<topicref href="topic_title.md" format="mdita"/>
+		<topicref href="topic_metadata.md" format="mdita"/>
+		<topicref href="topic_content.md" format="mdita"/>
+    <topicref href="xdita_ex.md" format="mdita" navtitle="Using XDITA Topics"/>
+    <topicref href="hdita_ex.md" format="mdita" navtitle="Using HDITA Topics"/>
+    <topicref href="mdita_ex.md" format="mdita" navtitle="Using MDITA Topics"/>
+    <topicref href="mdita_extension.md" format="mdita" navtitle="MDITA Extensions and Constraints"/>
+		<topicref href="markdown_ext.md" format="mdita" navtitle="Markdown Extensions"/>
+  </chapter>
+
+  <chapter navtitle="Publishing" href="publishing.md" format="mdita">
+		<topicref href="pub_trouble.md" format="mdita" navtitle="Trouble?"/>
+		<topicref href="pub_web.md" format="mdita" navtitle="Publishing Web Output"/>
+		<topicref href="pub_pdf.md" format="mdita" navtitle="Publishing PDF Output"/>
+		<topicref href="pub_props.md" format="mdita" navtitle="Publishing Properties"/>
+	</chapter>
+
+	<chapter navtitle="Customizing Output" href="customize.md" format="mdita">
+		<topicref href="custom_plan.md" format="mdita" navtitle="Planning Customizations"/>
+		<topicref href="custom_html.md" format="mdita" navtitle="Customizing HTML Output"/>
+		<topicref href="custom_pdf.md" format="mdita" navtitle="Customizing PDF Output">
+			<topicref href="custom_pdf_simple.md" format="mdita" navtitle="Creating a Simple PDF Plugin"/>
+			<topicref href="custom_pdf_extend.md" format="mdita" navtitle="Extending the Simple PDF Plugin"/>
+		</topicref>
+<!--
+		<topicref href="pg_media.md" format="mdita">
+			<topicref href="pg_media_plugin.md" format="markdown"/>
+			<topicref href="pg_media_toolkit.md" format="markdown"/>
+			<topicref href="pg_media_chemistry.md" format="markdown"/>
+			<topicref href="pg_media_example.md" format="markdown"/>
+		</topicref>
+-->
+	</chapter>
+
+	<chapter href="uplift.md" format="mdita" navtitle="Converting MDITA, HDITA, and XDITA Topics">
+		<topicref href="uplift-dita.md" format="mdita" navtitle="Uplifting to Full DITA"/>
+		<topicref href="uplift_prep.md" format="markdown" navtitle="Preparing a Book for Uplift"/>
+		<topicref href="uplift_infotype.md" format="mdita" navtitle="Example of Information Typing"/>
+		<topicref href="uplift_other.md" format="mdita" navtitle="Converting Other Documents to LwDITA"/>
+	</chapter>
+
+	<appendix href="links.md" format="mdita" navtitle="Useful Links"/>
+
+	<backmatter>
+		<colophon href="colophon.md" format="mdita"/>
+		<topicref href="intouch.md" format="mdita"/>
+	</backmatter>
+
+	<!-- reltable -->
+	<reltable>
+		<!-- columns are: -->
+			<!-- Using -->
+			<!-- Publishing -->
+			<!-- Customizing -->
+		<relrow>
+			<relcell/>
+			<relcell><topicref href="pub_web.md"/></relcell>
+			<relcell><topicref href="custom_html.md"/></relcell>
+		</relrow>
+		<relrow>
+			<relcell/>
+			<relcell><topicref href="pub_pdf.md"/></relcell>
+			<relcell><topicref href="custom_pdf.md"/></relcell>
+		</relrow>
+		<relrow>
+			<relcell>
+				<topicref href="xdita_ex.md"/>
+				<topicref href="hdita_ex.md"/>
+				<topicref href="mdita_ex.md"/>
+			</relcell>
+			<relcell/>
+			<relcell><topicref href="uplift.md"/></relcell>
+		</relrow>
+		<relrow>
+			<relcell/>
+			<relcell>
+				<topicref href="uplift_infotype.md"/>
+			</relcell>
+			<relcell>
+				<topicref href="mdita_extension.md"/>
+			</relcell>
+		</relrow>
+	</reltable>
+</bookmap>

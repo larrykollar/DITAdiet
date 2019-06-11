@@ -1,0 +1,74 @@
+/* optimized for DITA-OT HTML5 output */
+
+.pre, .codeblock, pre.screen {
+  padding: 0.4em;
+  background-color: #efefef;
+  font-family: "Anka/Coder Narrow", monospace;
+  overflow: scroll;
+}
+
+code, .codeph { font-family: "Anka/Coder Narrow", monospace; }
+
+.body {
+  font-family: "Noto Serif", Bookman, serif;
+  padding: 2%;
+}
+
+.title, .topictitle1, .topictitle2, .topictitle3, .topictitle4, .sectiontitle {
+  color: #111144;
+  font-family: "Noto Serif", Bookman, serif;
+}
+
+.notetitle, .tiptitle, .dangertitle, .cautiontitle, .warningtitle {
+  color: #111144;
+}
+
+.p {
+  margin-top: 0.6em;
+}
+
+
+/* put nav TOC on the left */
+nav {
+  font-family: sans-serif;
+  display: block;
+  float: left;
+  width: 32%;
+  background-color: #ddddf1;
+  padding: 1%;
+}
+
+/* related links navs use the whole 2nd column */
+nav.related-links {
+  width: 100%;
+  float: none;
+}
+
+main {
+  float: left;
+  width: 65%;
+}
+
+article {
+  margin-left: 0.8em;
+}
+
+/* header/footer */
+div.header {
+	background-color: #eeeeee;
+  padding: 12px;
+  font-family: "Noto Serif", Bookman, serif;
+  border-bottom: solid black 1px;
+}
+
+div.hdrinfo {
+  float: right;
+  width: 20%;
+  padding-left: 5%;
+}
+
+div.footer {
+	clear: both;
+  padding: 12px;
+  border-top: solid black 1px;
+}
