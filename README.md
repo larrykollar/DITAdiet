@@ -27,7 +27,7 @@ To build the book from source, you need:
 
 *  [DITA Open Toolkit](http://dita-ot.org/), v3.0 or newer.
    [Install](https://www.dita-ot.org/dev/topics/installing-client.html) the latest version if possible.
-*  For PDF, use the [com.ojemedia.pdf69 plugin](https://github.com/larrykollar/com.ojemedia.pdf69) plugin.
+*  For PDF, use the [com.ojemedia.pdf69 plugin](https://github.com/larrykollar/com.ojemedia.pdf69).
    This is optional, but recommended.
    Copy the `com.ojemedia.pdf69` directory into `plugins` in the DITA-OT directory,
    then use the command `dita --install` to integrate it.
